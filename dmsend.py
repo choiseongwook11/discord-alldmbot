@@ -12,7 +12,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("봇실행이 시작되었습니다(24시간 온라인).")
-    game = discord.Game('~하는 중 ex)봇만들기 하는 중')
+    game = discord.Game('스카니아서버 관리')
     await client.change_presence(status=discord.Status.online, activity=game)
 
 #/dm {할말}로 전체DM 전송
@@ -26,9 +26,9 @@ async def on_message(message):
                 try:
                     msg = message.content[4:]
                     if message.author.id == 디스코드ID를 적기!!:
-                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="최상단 제목")
-                        embed.add_field(name="제목", value=msg, inline=True)
-                        embed.set_footer(text=f"서버초대코드")
+                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="스카니아 서버")
+                        embed.add_field(name="스카니아 전체 알림", value=msg, inline=True)
+                        embed.set_footer(text=f"스카니아 서버")
                         await i.send(embed=embed)
                 except:
                     pass
