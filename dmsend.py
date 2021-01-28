@@ -25,7 +25,7 @@ async def on_message(message):
             else:
                 try:
                     msg = message.content[4:]
-                    if message.author.id == 디스코드ID를 적기!!:
+                    if message.author.id == 669422575432105984:
                         embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="스카니아 서버")
                         embed.add_field(name="스카니아 전체 알림", value=msg, inline=True)
                         embed.set_footer(text=f"스카니아 서버")
@@ -34,4 +34,4 @@ async def on_message(message):
                     pass
 
 
-client.run('봇의 토큰을 넣어주세용')
+client.run('ODA0NDgxNjI4NTg3ODE5MDA4.YBM95g.DUfyoYu4tf7qetEeBH2nO-wjnK4')
