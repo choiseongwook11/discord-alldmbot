@@ -24,9 +24,9 @@ async def on_message(message):
                 try:
                     msg = message.content[4:]
                     if message.author.id == 669422575432105984:
-                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="스카니아 서버")
-                        embed.add_field(name="스카니아 전체 알림", value=msg, inline=True)
-                        embed.set_footer(text=f"스카니아 서버")
+                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="서버")
+                        embed.add_field(name="전체 알림", value=msg, inline=True)
+                        embed.set_footer(text=f"서버")
                         await i.send(embed=embed)
                 except:
                     pass
