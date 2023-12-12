@@ -32,4 +32,4 @@ async def on_message(message):
                     pass
 
 
-client.run('ODA0NDgxNjI4NTg3ODE5MDA4.YBM95g.DUfyoYu4tf7qetEeBH2nO-wjnK4')
+client.run('bot key')
